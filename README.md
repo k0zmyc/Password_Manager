@@ -11,15 +11,15 @@ The application includes user authentication, password encryption, and a graphic
 
 ##Aplication structure
 
--database.py: Establishes a connection to the database.
--base64Logic.py: Contains the Encoder class for encoding and decoding text using a private key and Base64 encoding.
--user_auth.py: Provides functions for registering and authenticating users, as well as obtaining the user ID and encryption key.
--massage.py Provides methods for alerting the user when error is encountered of when confirmation is needed.
--login_register_window.py: Contains the Login class that manages the login and registration interface.
--passwords.py Provides methods for generating strong passwords, encryption and decryption and working withe the database.
--GUI.py Contains the GUI class that includes several method for managing GUI(Graphical User Interface) such as main window of the application,
--or pop-up windows for user interaction.
--main.py: The main file that starts the application.
+*database.py: Establishes a connection to the database.
+*base64Logic.py: Contains the Encoder class for encoding and decoding text using a private key and Base64 encoding.
+*user_auth.py: Provides functions for registering and authenticating users, as well as obtaining the user ID and encryption key.
+*massage.py Provides methods for alerting the user when error is encountered of when confirmation is needed.
+*login_register_window.py: Contains the Login class that manages the login and registration interface.
+*passwords.py Provides methods for generating strong passwords, encryption and decryption and working withe the database.
+*GUI.py Contains the GUI class that includes several method for managing GUI(Graphical User Interface) such as main window of the application,
+ or pop-up windows for user interaction.
+*main.py: The main file that starts the application.
 
 
 
