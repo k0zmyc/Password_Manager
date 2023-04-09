@@ -34,6 +34,12 @@ bcrypt==4.0.1
 passgen==1.1.1
 ```
 
+Also this project includes requirements.txt file, you can use it to install the packages like this:
+
+```
+pip install -r path/to/requirements.txt
+```
+
 ## Usage
 Ensure you have a MySQL server running with the appropriate database schema (not provided in this README).
 Modify the database.py file to include your MySQL server's connection details (host, user, password, and database name).
