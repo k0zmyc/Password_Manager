@@ -28,13 +28,11 @@ The application includes user authentication, password encryption, and a graphic
 To run this application, you'll need to have Python 3.6 or higher installed. Additionally, you'll need to install the following packages using pip:
 
 ```
-@requirements.txt
+mysql-connector-python==8.0.32
+customtkinter==5.1.2
+bcrypt==4.0.1
+passgen==1.1.1
 ```
-* `mysql-connector-python==8.0.32`
-* `customtkinter==5.1.2`
-* `bcrypt==4.0.1`
-* `passgen==1.1.1`
-
 
 ## Usage
 Ensure you have a MySQL server running with the appropriate database schema (not provided in this README).
