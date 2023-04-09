@@ -4,7 +4,7 @@ This password manager is a Python application that allows users to store and man
 The application includes user authentication, password encryption, and a graphical interface.
 
 ## Table of Contents
-1. [Application Structure](##Application structure)
+1. [Application Structure](##Application_structure)
 2. [Installation](##Installation)
 3. [Usage](##Usage)
 4. [Features](##Features)
