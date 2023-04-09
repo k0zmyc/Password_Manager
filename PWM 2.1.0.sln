@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PWM 2.1.0", "PWM 2.1.0\PWM 2.1.0.pyproj", "{93C61FAD-080B-43E9-A4CD-D5FCE7148437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C61FAD-080B-43E9-A4CD-D5FCE7148437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C61FAD-080B-43E9-A4CD-D5FCE7148437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC77B29F-17FE-4F5E-B678-53818813095D}
+	EndGlobalSection
+EndGlobal
