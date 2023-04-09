@@ -24,7 +24,10 @@ main.py: The main file that starts the application.
 
 
 ##Istallation
-To run this application, you'll need to have Python 3.6 or higher installed. Additionally, you'll need to install the following packages:
+To run this application, you'll need to have Python 3.6 or higher installed. Additionally, you'll need to install the following packages using pip:
+
+
+@requirements.txt
 
 mysql-connector-python==8.0.32
 customtkinter==5.1.2
