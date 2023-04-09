@@ -13,7 +13,7 @@ def create_db_connection():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="dpT84d-tgnRDY",
+        password="your root password",
         database="pwm"
     )
     return connection
