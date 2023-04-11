@@ -69,10 +69,10 @@ Please note that this application is meant to run on localhost and is not intend
 ![Log In/Register](./Examples/Example_1.png)
 ![Add password pop up](./Examples/Example_2.png)
 ![Generate and show password functions](./Examples/Example_3.png)
-![Main window-Layout and treeview](example_4.png)
-![Change password pop up](example_5.png)
-![Delete password](example_6.png)
-![Searching](example_7.png)
-![Log out](example_8.png)
+![Main window-Layout and treeview](./Examples/Example_4.png)
+![Change password pop up](./Examples/Example_5.png)
+![Delete password](./Examples/Example_6.png)
+![Searching](./Examples/Example_7.png)
+![Log out](./Examples/Example_8.png)
 
 
