@@ -65,3 +65,6 @@ Please note that this application is meant to run on localhost and is not intend
 * Log out functionality with confirmation prompt to prevent accidental logouts
 
 ## Example
+
+![2023-04-11](https://user-images.githubusercontent.com/115464865/231239257-298205cf-f966-4900-992c-54244e1e7388.png)
+
