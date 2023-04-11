@@ -4,11 +4,11 @@ This password manager is a Python application that allows users to store and man
 The application includes user authentication, password encryption, and a graphical interface.
 
 ## Table of Contents
-1. [Application Structure](##Application_structure)
-2. [Installation](##Installation)
-3. [Usage](##Usage)
-4. [Features](##Features)
-5. [Example](##Example)
+1. [Application Structure](## Application_structure)
+2. [Installation](## Installation)
+3. [Usage](## Usage)
+4. [Features](## Features)
+5. [Example](## Example)
 
 ## Aplication structure
 
@@ -41,14 +41,38 @@ pip install -r path/to/requirements.txt
 ```
 
 ## Usage
-Ensure you have a MySQL server running with the appropriate database schema (not provided in this README).
-Modify the database.py file to include your MySQL server's connection details (host, user, password, and database name).
-Run main.py to start the application.
+This password manager is a multi-window Python application featuring a modern customtkinter GUI. Designed for multiple users, the app starts with a login/register window which provides error handling for incorrect inputs. The application utilizes bcrypt library for password hashing and a MySQL database for secure storage.
+
+Upon successful login or registration, the main window presents a treeview of stored passwords (if any) for the current user. The interface includes a search bar with search and clear buttons for easy navigation, as well as options to add, edit, and delete passwords.
+
+Run "main.py" to start the application. Module "database.py" includes a method that creates a database and tables on your localhost in case it does not already exist.
+
 Use the graphical interface to register a new user or log in to an existing account.
 Please note that this application is meant to run on localhost and is not intended for deployment on a public server.
 
 
 ## Freatures
 
+* Multi-user support with secure login and registration functionality
+* Customtkinter GUI for a modern and visually appealing interface
+* Bcrypt password hashing for enhanced security
+* MySQL database storage for user and password information
+* Treeview to display and manage stored passwords
+* Search functionality to quickly locate specific passwords
+* Options to add, edit, and delete passwords
+* Strong password generation (16 characters) using the passgen library
+* Automatic treeview updates to reflect changes made
+* Log out functionality with confirmation prompt to prevent accidental logouts
 
 ## Example
+
+![Log In/Register](example_1.png)
+![Add password pop up](example_2.png)
+![Generate and show password functions](example_3.png)
+![Main window-Layout and treeview](example_4.png)
+![Change password pop up](example_5.png)
+![Delete password](example_6.png)
+![Searching](example_7.png)
+![Log out](example_8.png)
+
+
