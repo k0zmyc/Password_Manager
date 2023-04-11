@@ -39,6 +39,8 @@ class Login:
         self.log.geometry("325x250")
         self.log.wm_iconbitmap(r"C:\Users\Honza\source\repos\PWM 2.1.0\PWM 2.1.0\icons\pwm_icon.ico")
         self.create_ui()
+        
+        database.execute()
                 
 #**************************************************************************************************************************************************************************************************
 

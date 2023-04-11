@@ -81,6 +81,9 @@ def authenticate_user(username, password):
             return user_id, encryption_key
         else:
             return None, None
+    else:
+        #say("Error!", "Invalid username or password", "Try again")
+        return None, None
 
 
 

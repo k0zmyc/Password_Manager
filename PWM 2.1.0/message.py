@@ -19,7 +19,7 @@ def say(title, message, button_text):
        
     say = ctk.CTkToplevel()
     say.title(title)
-    say.geometry("250x150")
+    say.geometry("290x150")
 
     message_label = ctk.CTkLabel(say, text=message)
     message_label.pack(padx=10, pady=10)
