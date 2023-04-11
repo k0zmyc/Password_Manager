@@ -53,15 +53,15 @@ Please note that this application is meant to run on localhost and is not intend
 
 ## Freatures
 
-*Multi-user support with secure login and registration functionality
-*Customtkinter GUI for a modern and visually appealing interface
-*Bcrypt password hashing for enhanced security
-*MySQL database storage for user and password information
-*Treeview to display and manage stored passwords
-*Search functionality to quickly locate specific passwords
-*Options to add, edit, and delete passwords
-*Strong password generation (16 characters) using the passgen library
-*Automatic treeview updates to reflect changes made
-*Log out functionality with confirmation prompt to prevent accidental logouts
+* Multi-user support with secure login and registration functionality
+* Customtkinter GUI for a modern and visually appealing interface
+* Bcrypt password hashing for enhanced security
+* MySQL database storage for user and password information
+* Treeview to display and manage stored passwords
+* Search functionality to quickly locate specific passwords
+* Options to add, edit, and delete passwords
+* Strong password generation (16 characters) using the passgen library
+* Automatic treeview updates to reflect changes made
+* Log out functionality with confirmation prompt to prevent accidental logouts
 
 ## Example
