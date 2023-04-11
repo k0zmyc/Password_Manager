@@ -64,6 +64,17 @@ Please note that this application is meant to run on localhost and is not intend
 * Automatic treeview updates to reflect changes made
 * Log out functionality with confirmation prompt to prevent accidental logouts
 
+## Possible improvements
+
+* creating executable file
+* adding capabilities to detect login windows and auto-fill or suggestion of password generation
+* enabling user to choose generated password length and type (easy to remember, ultra strong, etc.)
+* prepare for server deployment
+* Two-factor authentication for register using for example smtp for email confirmation
+* Cross-platform compatibility
+* Cloud sync
+* and many other options..
+
 ## Example
 
 ![Log In/Register](./Examples/Example_1.png)
