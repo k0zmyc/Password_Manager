@@ -42,9 +42,10 @@ pip install -r path/to/requirements.txt
 
 Before first run, replace the password for root in the "database.py" module. it looks like this:
 
-'''
+```
 password = "your root password"
-'''
+```
+Your password goes inside the quotes.
 
 ## Usage
 This password manager is a multi-window Python application featuring a modern customtkinter GUI. Designed for multiple users, the app starts with a login/register window which provides error handling for incorrect inputs. The application utilizes bcrypt library for password hashing and a MySQL database for secure storage.
