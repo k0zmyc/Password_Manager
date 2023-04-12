@@ -15,7 +15,7 @@ def create_db_connection():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="dpT84d-tgnRDY",
+        password="your root password",
         database="pwm"
     )
     
@@ -28,7 +28,7 @@ def execute():
     connection = mysql.connector.connect(
         host = "localhost",
         user = "root",
-        password = "dpT84d-tgnRDY"
+        password = "your root password"
         )
     cursor = connection.cursor()
     cursor.execute("CREATE DATABASE IF NOT EXISTS pwm")
